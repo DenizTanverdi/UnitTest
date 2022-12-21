@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.Test\\UnitTest.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.APP\\UnitTest.APP.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.APP\\UnitTest.APP.csproj",
+        "projectName": "UnitTest.APP",
+        "projectPath": "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.APP\\UnitTest.APP.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.Test\\UnitTest.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.Test\\UnitTest.Test.csproj",
+        "projectName": "UnitTest.Test",
+        "projectPath": "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.Test\\UnitTest.Test.csproj",
+        "packagesPath": "C:\\Users\\GLB90097131\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GLB90097131\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.APP\\UnitTest.APP.csproj": {
+                "projectPath": "C:\\Users\\GLB90097131\\source\\repos\\UnitTest\\UnitTest.APP\\UnitTest.APP.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.3, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
